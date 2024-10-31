@@ -1,0 +1,125 @@
+.rp_kb_txt {
+	color:red;
+	font-size:2em;
+}
+
+.rp_fragebogen_formular {
+	border:1px solid #f2f2f2;
+	background-color: #f8f8f8;
+	padding:10px;
+}
+
+.rp_fragebogen {
+	background-color:#ffffff;
+	border:1px solid #e2e2e2;
+	border-radius:5px;
+	padding:20px;
+	margin-bottom:30px;
+}
+
+.rp_fragebogen_no {
+	background-color:#ffffff;
+	border:1px solid #e2e2e2;
+	border-radius:5px;
+	display:none !important;
+	padding:20px;
+	margin-bottom:30px;
+}
+
+.rp_captcha_txt {
+	width:120px;
+	height:46px;
+	border:1px solid #e2e2e2;
+	border-radius:5px;
+}
+
+.rp_captcha_img {
+	height:46px;
+	margin-right:5px;
+	float:left;
+	border-radius:5px;
+}
+
+.rp_alert_box {
+	padding:10px;
+	border:1px solid #f2f2f2;
+	border-left:5px solid red;
+	border-radius:5px;
+	background-color:#ffffff;
+	color:#000000;
+	margin-bottom:30px;
+}
+
+.rp_success_box {
+	padding:10px;
+	border:1px solid #f2f2f2;
+    border-left:5px solid green;
+	border-radius:5px;
+	background-color:#ffffff;
+	color:#000000;
+	margin-bottom:30px;
+}
+
+.rp_skala_1 {
+	background-color:#1FE059;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+.rp_skala_2 {
+	background-color:#F7E023;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+.rp_skala_3 {
+	background-color:#F8F8F8;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+.rp_skala_4 {
+	background-color:#F74E2F;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+.rp_skala_5 {
+	background-color:#AB1A00;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+.rp_skala_all {
+	border:1px solid #505050;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.rp_skala_div {
+	margin-top:10px;
+}
+
+.rp_freitext {
+	width:100%;
+}
+
+.rp_radio {
+
+}
+
+.danke_kbo {
+	width:100%;
+	text-align:right;
+	font-size:0.7em;
+}

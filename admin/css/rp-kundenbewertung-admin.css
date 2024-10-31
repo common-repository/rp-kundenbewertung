@@ -1,0 +1,161 @@
+/**
+ * All of the CSS for admin-specific functionality
+ */
+
+.rp_admin_div {
+	width:90%;
+}
+
+.rp_txt_admin {
+	width:100%;
+	height:30px;
+	margin-bottom:10px;
+}
+
+.rp_txt_admin_sel {
+	height:30px;
+	margin-bottom:40px;
+}
+
+.rp_txt_admin_cb {
+	margin-bottom:40px !important;
+}
+
+.rp_admin_div td, .rp_admin_div th {
+	padding-bottom:0 !important;
+	padding-top:0 !important;
+}
+
+.rp_admin_div table {
+	border-spacing: 0px !important;
+}
+
+.tabbed figure {
+	display: block;
+    margin-left: 0;
+    border-bottom: 1px solid silver;
+    clear: both;
+}
+
+.tabbed-1 {
+	border-bottom: 1px solid silver;
+	border-left: 1px solid silver;
+}
+
+
+.tabbed > input,
+.tabbed figure > div {
+	display: none;
+}
+
+.tabbed figure>div {
+	padding: 10px;
+    width: 100%;
+    border: 1px solid silver;
+    background: #fff;
+    line-height: 1.5em;
+    letter-spacing: 0.3px;
+    color: #444;
+}
+
+#tab1:checked ~ figure .tab1,
+#tab2:checked ~ figure .tab2,
+#tab3:checked ~ figure .tab3 {
+	display: block;
+}
+
+nav label {
+	float: left;
+    padding: 15px 15px;
+    border-top: 1px solid silver;
+    border-right: 1px solid silver;
+    background: hsl(210,50%,50%);
+    color: #eee;
+}
+
+nav label:nth-child(1) { border-left: 1px solid silver; }
+nav label:hover { background: hsl(210,50%,40%); }
+nav label:active { background: #ffffff; }
+
+#tab1:checked ~ nav label[for="tab1"],
+#tab2:checked ~ nav label[for="tab2"],
+#tab3:checked ~ nav label[for="tab3"] {
+	background: #ffffff;
+    color: #111;
+    position: relative;
+    border-bottom: none;
+}
+
+#tab1:checked ~ nav label[for="tab1"]:after,
+#tab2:checked ~ nav label[for="tab2"]:after,
+#tab3:checked ~ nav label[for="tab3"]:after {
+	content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #ffffff;
+    left: 0;
+    bottom: -1px;
+}
+
+.rp_skala_1 {
+	background-color:#1FE059;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+.rp_skala_2 {
+	background-color:#F7E023;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+.rp_skala_3 {
+	background-color:#F8F8F8;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+.rp_skala_4 {
+	background-color:#F74E2F;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+.rp_skala_5 {
+	background-color:#AB1A00;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#000000;
+}
+
+.rp_skala_all {
+	border:1px solid #505050;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.rp_skala_all input[type='radio'] {
+	line-height:40px;
+	background-color:#ffffff;;
+}
+
+.rp_success_box {
+	padding:10px;
+	border:1px solid #f2f2f2;
+    border-left:5px solid green;
+	border-radius:5px;
+	background-color:#f2f2f2;
+	color:#000000;
+	margin-bottom:30px;
+}
